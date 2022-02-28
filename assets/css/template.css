@@ -1,0 +1,115 @@
+* {
+    font-family: Arial;
+}
+body {
+   margin:0;
+   padding: 0;
+}
+.container {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+header {
+    height: 250px;    
+    justify-content: start;
+    border-bottom:2px solid blue;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+.logo a {
+    display: flex;
+    height: 250px;
+    width: 250px;
+}
+.nome {
+    color: rgb(53, 113, 202);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 480px;
+    text-shadow: 1px 2px 2px #000;
+}
+.nome h1 {
+    font-size: 50px;    
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.nome h2 {
+    font-size: 20px;
+}
+.descricao {
+    display: flex;
+    justify-content: center;
+
+
+}
+section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section .foto a img{
+    display: flex;
+    padding-top: 10px;
+    margin-bottom: -18px;
+    justify-content: center;
+}
+.comentario {
+    display: flex;
+    margin-top:0px;
+    padding-top:0px;
+    line-height: 0px;
+    font-style: italic;
+    text-decoration: underline;
+}
+section p {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    max-width: 600px;
+    line-height: 25px;
+    color: rgb(53, 113, 202);
+    text-shadow: 1px 0px 1px #000;
+}
+.hist {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 20px;    
+}
+.hist .player, .treinador {
+    display: flex;
+    justify-content:space-around;
+    padding: 20px;        
+}
+.hist .player {
+    margin-right: 100px;
+}
+
+.hist .player table thead, .treinador table thead{
+    background-color: royalblue;
+}
+.hist .player table, .treinador table {
+    border:2px solid #000;
+}
+.hist .player table thead tr th, .treinador table thead tr th {
+    border: 2px solid #000;
+    padding:5px
+}  
+.hist .player table tbody tr td, .treinador table tbody tr td {
+    border: 2px solid #000;
+    padding:5px;
+}
+.creditos {
+    font-size: 20px;    
+}
+h3 a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
